@@ -1,0 +1,1179 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.swiper {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    z-index: 0;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.PingMin {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 90px;
+    width: 3000px;
+    margin: 0 auto;
+    z-index: 1;
+
+
+}
+
+.PingMin_full {
+    width: 90%;
+    height: 90px;
+    /* background-color: skyblue; */
+    margin: auto;
+
+
+
+}
+
+.PingMin_full img {
+    float: left;
+    padding-top: 29px;
+}
+
+.PingMin_list {
+
+
+    list-style: none;
+
+
+}
+
+.PingMin_list li {
+    float: left;
+}
+
+.PingMin_list li a {
+    float: left;
+    color: white;
+    margin-left: 47px;
+    font-size: 16px;
+    line-height: 90px;
+    text-decoration: none;
+
+}
+
+.PingMin_list .PingMin_list_1 {
+    margin-left: 150px;
+    border-bottom: 2px solid white;
+}
+
+.PingMin_list li a:hover {
+    color: black;
+    border-bottom: 2px solid white;
+}
+
+.PingMin_list_11 {
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 28px;
+    /* background-color: pink; */
+    margin-left: 308px;
+    margin-top: 29px;
+}
+
+.PingMin_list_111 {
+
+    float: left;
+    width: 257px;
+    height: 28px;
+    padding-left: 11px;
+    font-size: 5px;
+    color: whitesmoke;
+    background-color: transparent;
+    border-radius: 14px;
+    outline: none;
+    border: 1px solid white;
+
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?2mf5j9');
+    src: url('fonts/icomoon.eot?2mf5j9#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?2mf5j9') format('truetype'),
+        url('fonts/icomoon.woff?2mf5j9') format('woff'),
+        url('fonts/icomoon.svg?2mf5j9#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.PingMin_list_11::before {
+    position: absolute;
+    top: 5px;
+    right: 52px;
+    color: white;
+    font-size: 18px;
+    font-family: 'icomoon';
+    content: '';
+}
+
+.PingMin_list_11::after {
+    position: absolute;
+    top: 5px;
+    right: 18px;
+    color: white;
+    font-size: 18px;
+    font-family: 'icomoon';
+    content: '';
+}
+
+.PingMin_2 {
+    width: 100%;
+    height: 267px;
+    background-color: #f7f8fa;
+
+}
+
+.PingMin_22 {
+    width: 1340px;
+    height: 267px;
+    /* background-color: skyblue; */
+    margin: auto;
+}
+
+.PingMin_22 li {
+    position: relative;
+    float: left;
+    list-style: none;
+    width: 187px;
+    height: 187px;
+    background-color: white;
+    margin: 36px 40px;
+    border-radius: 50%;
+
+
+}
+
+.PingMin_22 li div {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+
+    border-bottom: 0;
+    border-top: 36px solid #f7f8fa;
+    border-left: 85px solid #f7f8fa;
+    border-right: 18px solid transparent;
+}
+
+.PingMin_22 li .log4::after {
+    position: absolute;
+    top: 0;
+    left: -112px;
+    font-size: 77px;
+    font-family: 'icomoon';
+    content: '';
+
+}
+
+.PingMin_22 li .log5::after {
+    position: absolute;
+    top: 0;
+    left: -112px;
+    font-size: 77px;
+    font-family: 'icomoon';
+    content: '';
+
+}
+
+.PingMin_22 li .log6::after {
+    position: absolute;
+    top: 0;
+    left: -112px;
+    font-size: 77px;
+    font-family: 'icomoon';
+    content: '';
+
+}
+
+.PingMin_22 li .log7::after {
+    position: absolute;
+    top: 0;
+    left: -112px;
+    font-size: 77px;
+    font-family: 'icomoon';
+    content: '';
+
+}
+
+.PingMin_22 li .log8::after {
+    position: absolute;
+    top: 0;
+    left: -112px;
+    font-size: 77px;
+    font-family: 'icomoon';
+    content: '';
+
+}
+
+.PingMin_22 li p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 128px;
+    text-align: center;
+
+}
+
+.PingMin_22 li:hover {
+    background-color: #5068fc;
+    color: white;
+
+}
+
+.PingMin_3 {
+    position: relative;
+    width: 100%;
+    height: 32px;
+    margin-top: 60px;
+}
+
+.PingMin_3::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 33px;
+    font-family: 'icomoon';
+    content: '';
+    color: #5068fc;
+    margin-left: 322px;
+
+
+}
+
+.PingMin_3 span {
+    float: left;
+    color: #5068fc;
+    font-size: 30px;
+    line-height: 32px;
+    margin-left: 367px;
+    font-weight: 700;
+
+}
+
+.PingMin_3 p {
+    color: black;
+    font-size: 30px;
+    line-height: 32px;
+    margin-left: 368px;
+    font-weight: 700;
+}
+
+.PingMin_4 {
+    position: relative;
+    width: 82%;
+    margin-top: 60px;
+    margin-left: 330px;
+}
+
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.PingMin_4 li {
+    overflow: hidden;
+    position: relative;
+    float: left;
+    width: 298px;
+    height: 315px;
+    background-color: #f2f2f2;
+    list-style: none;
+    margin-right: 20px;
+    border-radius: 13px;
+
+
+}
+
+.PingMin_4 li .mask {
+
+    position: absolute;
+    top: 59px;
+    left: -41px;
+    width: 100%;
+    height: 70%;
+    background: rgba(0, 0, 0, .4) url(../images/wang4.png) no-repeat center;
+    transform: rotate(180deg);
+    transform-origin: left bottom;
+    transition: all 0.4s;
+}
+
+.PingMin_4 li:hover .mask {
+    border-radius: 12px;
+    transform: rotate(0deg);
+
+}
+
+/* .PingMing_4_picture */
+.PingMin_4 li img {
+    border-radius: 13px 13px 0 0;
+}
+
+.PingMin_4 li img:nth-child(2) {
+    position: absolute;
+    top: -7px;
+    right: 0;
+
+}
+
+.PingMin_4 li p {
+    position: relative;
+    padding-top: 19px;
+    padding-left: 15px;
+    font-weight: 700;
+}
+
+.PingMin_4 li p::after {
+    position: absolute;
+    bottom: -51px;
+    left: 15px;
+    font-size: 15px;
+    font-family: 'icomoon';
+    content: '';
+}
+
+.PingMin_4 li div {
+    font-size: 9px;
+    margin-left: 42px;
+    margin-top: 35px;
+}
+
+.PingMin_4 li a {
+    position: absolute;
+    bottom: 12px;
+    left: 17px;
+    width: 264px;
+    height: 32px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    line-height: 32px;
+    background-color: #5068fc;
+    border-radius: 13px;
+
+}
+
+.PingMin_5 {
+    position: relative;
+    width: 100%;
+    height: 32px;
+    margin-top: 60px;
+    /* background-color: pink; */
+}
+
+.PingMin_5::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 33px;
+    font-family: 'icomoon';
+    content: '';
+    color: #5068fc;
+    margin-left: 322px;
+}
+
+.PingMin_5 span {
+    float: left;
+    color: #5068fc;
+    font-size: 30px;
+    line-height: 32px;
+    margin-left: 367px;
+    font-weight: 700;
+
+}
+
+.PingMin_5 p {
+
+    color: black;
+    font-size: 30px;
+    line-height: 32px;
+    margin-left: 368px;
+    font-weight: 700;
+}
+
+.PingMin_5 .PingMin_5_1 {
+    position: absolute;
+    top: 10px;
+    left: 540px;
+    font-size: 18px;
+
+    color: #8c8c8c;
+}
+
+
+
+
+.PingMin_5 .PingMin_5_2 {
+    position: absolute;
+    top: 7px;
+    right: 315px;
+    font-size: 18px;
+    color: #5068fc;
+    text-decoration: none;
+    border-bottom: 1px solid #5068fc;
+
+}
+
+.PingMin_6 {
+    position: relative;
+    width: 1264px;
+    height: 340px;
+    /* background-color: pink; */
+    margin: auto;
+    margin-top: 70px;
+}
+
+.PingMin_6_knock {
+    position: relative;
+    float: left;
+    width: 620px;
+    height: 340px;
+    background-color: #f2f2f2;
+}
+
+.PingMin_6_knock div {
+    position: absolute;
+    top: -27px;
+    left: 23px;
+    width: 293px;
+    height: 300px;
+    border-radius: 14px;
+    background-color: white;
+}
+
+.PingMin_6_knock1 {
+    position: relative;
+    float: right;
+    width: 620px;
+    height: 340px;
+
+    background-color: #f2f2f2;
+}
+
+.PingMin_6_knock1 div {
+    position: absolute;
+    top: -27px;
+    left: 23px;
+    width: 293px;
+    height: 300px;
+    background-color: white;
+    border-radius: 14px;
+}
+
+.PingMin_6_knock div img,
+.PingMin_6_knock1 div img {
+    border-radius: 14px 14px 0 0;
+}
+
+.PingMin_6_knock div #look {
+    position: absolute;
+    top: 212px;
+    left: 13px;
+    width: 268px;
+    height: 35px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 33px;
+    color: white;
+    font-weight: 700;
+    background-color: #5068fc;
+}
+
+.PingMin_6_knock div #look_1 {
+    position: absolute;
+    top: 256px;
+    left: 13px;
+    width: 268px;
+    height: 35px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 33px;
+    color: #5068fc;
+    font-weight: 700;
+    border: 2px solid #5068fc;
+}
+
+.PingMin_6_knock div #look_1::after {
+    position: absolute;
+    bottom: -2px;
+    right: 195px;
+    font-size: 19px;
+    font-family: 'icomoon';
+    color: #5068fc;
+    content: '';
+
+}
+
+.PingMin_6_knock1 div #course {
+    position: absolute;
+    top: 212px;
+    left: 13px;
+    width: 268px;
+    height: 35px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 32px;
+    color: white;
+    font-weight: 700;
+    background-color: #5068fc;
+}
+
+.PingMin_6_knock1 div #course_1 {
+    position: absolute;
+    top: 256px;
+    left: 13px;
+    width: 268px;
+    height: 35px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 32px;
+    color: #5068fc;
+    font-weight: 700;
+    border: 2px solid #5068fc;
+}
+
+.PingMin_6_knock1 div #course_1::after {
+    position: absolute;
+    bottom: -2px;
+    right: 195px;
+    font-size: 19px;
+    font-family: 'icomoon';
+    color: #5068fc;
+    content: '';
+
+}
+
+.PingMin_6_knock h2 {
+    width: 264px;
+    height: 84px;
+    /* background-color: pink; */
+    margin-left: 335px;
+    margin-top: 21px;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.PingMin_6_knock p {
+    width: 264px;
+    height: 90px;
+    font-size: 13px;
+    margin-left: 335px;
+    margin-top: 21px;
+    color: #8f8f8f;
+}
+
+.PingMin_6_knock1 h2 {
+    width: 264px;
+    height: 84px;
+    /* background-color: pink; */
+    margin-left: 335px;
+    margin-top: 21px;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.PingMin_6_knock1 p {
+    width: 264px;
+    height: 90px;
+    font-size: 13px;
+    margin-left: 335px;
+    margin-top: 21px;
+    color: #8f8f8f;
+}
+
+.PingMin_6_knock .PingMin_6_knock_nav {
+    position: relative;
+    width: 579px;
+    height: 43px;
+    background-color: white;
+    margin-top: 95px;
+    text-align: center;
+    line-height: 41px;
+    border-radius: 20px;
+
+}
+
+.PingMin_6_knock1 .PingMin_6_knock1_nav {
+    position: relative;
+    width: 579px;
+    height: 43px;
+    background-color: white;
+    margin-top: 95px;
+    text-align: center;
+    line-height: 41px;
+    border-radius: 20px;
+}
+
+.PingMin_6_knock .PingMin_6_knock_nav span {
+    margin: 0 46px;
+    color: #a3a3a3;
+    font-weight: 700;
+}
+
+.PingMin_6_knock1 .PingMin_6_knock1_nav span {
+    margin: 0 46px;
+    color: #a3a3a3;
+    font-weight: 700;
+}
+
+.PingMin_6_knock1 .PingMin_6_knock1_nav::after {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    font-size: 20px;
+    font-family: 'icomoon';
+    font-weight: 800;
+    content: '';
+}
+
+.PingMin_6_knock1 div #course::after {
+    position: absolute;
+    top: 104px;
+    left: 141px;
+    font-size: 18px;
+    font-family: 'icomoon';
+    content: '';
+    color: #001863;
+    z-index: 1000;
+}
+
+.PingMin_6_knock1 div #course::before {
+    position: absolute;
+    top: 104px;
+    left: 298px;
+    font-size: 18px;
+    font-family: 'icomoon';
+    content: '';
+    color: #001863;
+    z-index: 1000;
+}
+
+.PingMin_6_knock1 div #course_1::before {
+    position: absolute;
+    top: 59px;
+    left: 433px;
+    font-size: 18px;
+    font-family: 'icomoon';
+    content: '';
+    color: #001863;
+    z-index: 1000;
+}
+
+
+.PingMin_6_knock .PingMin_6_knock_nav::after {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    font-size: 20px;
+    font-family: 'icomoon';
+    font-weight: 800;
+    content: '';
+}
+
+.PingMin_6_knock div #look::after {
+    position: absolute;
+    top: 104px;
+    left: 141px;
+    font-size: 18px;
+    font-family: 'icomoon';
+    content: '';
+    color: #001863;
+    z-index: 1000;
+}
+
+.PingMin_6_knock div #look::before {
+    position: absolute;
+    top: 104px;
+    left: 298px;
+    font-size: 18px;
+    font-family: 'icomoon';
+    content: '';
+    color: #001863;
+    z-index: 1000;
+}
+
+.PingMin_6_knock div #look_1::before {
+    position: absolute;
+    top: 59px;
+    left: 433px;
+    font-size: 18px;
+    font-family: 'icomoon';
+    content: '';
+    color: #001863;
+    z-index: 1000;
+}
+
+.PingMin_7 {
+    position: relative;
+    width: 100%;
+    height: 32px;
+    margin-top: 60px;
+
+}
+
+.PingMin_7::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 33px;
+    font-family: 'icomoon';
+    content: '';
+    color: #5068fc;
+    margin-left: 322px;
+}
+
+.PingMin_7 span {
+    float: left;
+    color: #5068fc;
+    font-size: 30px;
+    line-height: 32px;
+    margin-left: 367px;
+    font-weight: 700;
+
+}
+
+.PingMin_7 p {
+
+    color: black;
+    font-size: 30px;
+    line-height: 32px;
+    margin-left: 368px;
+    font-weight: 700;
+}
+
+.PingMin_7 .PingMin_7_1 {
+    position: absolute;
+    top: 10px;
+    left: 540px;
+    font-size: 18px;
+
+    color: #8c8c8c;
+}
+
+
+
+
+.PingMin_7 .PingMin_7_2 {
+    position: absolute;
+    top: 7px;
+    right: 315px;
+    font-size: 18px;
+    color: #5068fc;
+    text-decoration: none;
+    border-bottom: 1px solid #5068fc;
+
+}
+
+.PingMin_8 {
+    width: 82%;
+    margin-top: 30px;
+    margin-left: 330px;
+}
+
+.PingMin_8 li {
+    position: relative;
+    float: left;
+    width: 298px;
+    height: 315px;
+    margin-top: 30px;
+    background-color: white;
+    list-style: none;
+    margin-right: 20px;
+    border-radius: 13px;
+}
+
+.PingMin_8 .PingMin_8_1 img {
+    border-radius: 13px;
+}
+
+.PingMin_8 .PingMin_8_2 {
+    position: relative;
+    width: 298px;
+    height: 112px;
+    background-image: linear-gradient(to right, #00aaf6, #005bea);
+    border-radius: 13px 13px 0 0;
+}
+
+.PingMin_8 .PingMin_8_3 {
+    position: relative;
+    width: 298px;
+    height: 112px;
+    background-image: linear-gradient(to right, #be84d2, #7028e4);
+    border-radius: 13px 13px 0 0;
+}
+
+.PingMin_8 .PingMin_8_4 {
+    position: relative;
+    width: 298px;
+    height: 112px;
+    background-image: linear-gradient(to right, #f48a1b, #ff7112);
+    border-radius: 13px 13px 0 0;
+}
+
+.PingMin_8 .PingMin_8_5 {
+    position: relative;
+    width: 298px;
+    height: 112px;
+    background-image: linear-gradient(to right, #7491d3, #5727db);
+    border-radius: 13px 13px 0 0;
+}
+
+.PingMin_8 .PingMin_8_6 {
+    position: relative;
+    width: 298px;
+    height: 112px;
+    background-image: linear-gradient(to right, #00aaf6, #005bea);
+    border-radius: 13px 13px 0 0;
+}
+
+.PingMin_8 .PingMin_8_7 {
+    position: relative;
+    width: 298px;
+    height: 112px;
+    background-image: linear-gradient(to right, #be84d2, #7028e4);
+    border-radius: 13px 13px 0 0;
+}
+
+.PingMin_8 .PingMin_8_8 {
+    position: relative;
+    width: 298px;
+    height: 112px;
+    background-image: linear-gradient(to right, #f48a1b, #ff7112);
+    border-radius: 13px 13px 0 0;
+}
+
+.PingMin_8 li p {
+    padding-top: 19px;
+    padding-left: 15px;
+    font-weight: 700;
+}
+
+.PingMin_8 li span {
+    display: inline-block;
+    margin-top: 29px;
+    margin-left: 33px;
+    margin-right: 32px;
+    font-size: 17px;
+    color: #8c8c8c;
+}
+
+.PingMin_8 li .PingMin_8_2::after,
+.PingMin_8 li .PingMin_8_3::after,
+.PingMin_8 li .PingMin_8_4::after,
+.PingMin_8 li .PingMin_8_5::after,
+.PingMin_8 li .PingMin_8_6::after,
+.PingMin_8 li .PingMin_8_7::after,
+.PingMin_8 li .PingMin_8_8::after {
+    position: absolute;
+    top: 204px;
+    left: 12px;
+    font-size: 17px;
+    font-family: 'icomoon';
+    content: '';
+}
+
+.PingMin_8 li .PingMin_8_2::before,
+.PingMin_8 li .PingMin_8_3::before,
+.PingMin_8 li .PingMin_8_4::before,
+.PingMin_8 li .PingMin_8_5::before,
+.PingMin_8 li .PingMin_8_6::before,
+.PingMin_8 li .PingMin_8_7::before,
+.PingMin_8 li .PingMin_8_8::before {
+    position: absolute;
+    top: 204px;
+    left: 145px;
+    font-size: 19px;
+    font-family: 'icomoon';
+    content: '';
+}
+
+.PingMin_8 li a {
+    float: left;
+    display: block;
+    width: 130px;
+    height: 34px;
+    background-color: white;
+    text-decoration: none;
+    margin: 33px 6px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 4px;
+    color: #5068fc;
+}
+
+
+.PingMin_8 li .PingMin_8_2_last,
+.PingMin_8 li .PingMin_8_3_last,
+.PingMin_8 li .PingMin_8_4_last,
+.PingMin_8 li .PingMin_8_5_last,
+.PingMin_8 li .PingMin_8_6_last,
+.PingMin_8 li .PingMin_8_7_last,
+.PingMin_8 li .PingMin_8_8_last {
+    position: relative;
+    color: white;
+    background-color: #5068fc;
+
+}
+
+.PingMin_8 li .PingMin_8_2_last:after,
+.PingMin_8 li .PingMin_8_3_last:after,
+.PingMin_8 li .PingMin_8_4_last:after,
+.PingMin_8 li .PingMin_8_5_last:after,
+.PingMin_8 li .PingMin_8_6_last:after,
+.PingMin_8 li .PingMin_8_7_last:after,
+.PingMin_8 li .PingMin_8_8_last:after {
+    position: absolute;
+    top: 0;
+    left: -134px;
+    font-size: 18px;
+    font-family: 'icomoon';
+    content: '';
+    color: #5068fc;
+}
+
+.PingMin_8 .PingMin_8_2 .VIP,
+.PingMin_8 .PingMin_8_3 .VIP,
+.PingMin_8 .PingMin_8_4 .VIP,
+.PingMin_8 .PingMin_8_5 .VIP,
+.PingMin_8 .PingMin_8_6 .VIP,
+.PingMin_8 .PingMin_8_7 .VIP,
+.PingMin_8 .PingMin_8_8 .VIP {
+    position: absolute;
+    top: -8px;
+    left: 190px;
+}
+
+
+
+.PingMin_9 img {
+    width: 100%;
+    height: 609px;
+    margin-top: -548px;
+
+}
+
+.PingMin_10 {
+    width: 100%;
+    height: 655px;
+    background-color: #f6f7f9;
+    margin-top: -4px;
+}
+
+.PingMin_10 .PingMin_10_nav {
+    position: relative;
+    width: 1300px;
+    height: 32px;
+    padding-top: 60px;
+
+}
+
+.PingMin_10 .PingMin_10_nav::after {
+    position: absolute;
+    top: 59px;
+    left: 0;
+    font-size: 33px;
+    font-family: 'icomoon';
+    content: '';
+    color: #5068fc;
+    margin-left: 322px;
+}
+
+.PingMin_10 .PingMin_10_nav span {
+    float: left;
+    color: #5068fc;
+    font-size: 30px;
+    line-height: 32px;
+    margin-left: 367px;
+    font-weight: 700;
+
+}
+
+.PingMin_10 .PingMin_10_nav p {
+
+    color: black;
+    font-size: 30px;
+    line-height: 32px;
+    margin-left: 368px;
+    font-weight: 700;
+}
+
+.PingMin_10 .PingMin_10_nav .PingMin_10_2 {
+    position: absolute;
+    top: 66px;
+    right: -285px;
+    font-size: 18px;
+    color: #5068fc;
+    text-decoration: none;
+    border-bottom: 1px solid #5068fc;
+
+}
+
+.PingMin_10 .PingMin_10_list {
+    width: 1256px;
+    height: 455px;
+    margin: auto;
+    margin-top: 92px;
+
+}
+
+.PingMin_10 .PingMin_10_list .PingMin-left {
+    position: relative;
+    float: left;
+    width: 620px;
+    height: 100%;
+    border-radius: 14px;
+    background-color: white;
+    /* background-color: red; */
+}
+
+.PingMin_10 .PingMin_10_list .PingMin-right {
+    float: right;
+    width: 620px;
+    height: 100%;
+    border-radius: 14px;
+    list-style: none;
+
+}
+
+.PingMin_10 .PingMin_10_list .PingMin-left img {
+    border-radius: 14px 0 0 0;
+}
+
+.PingMin_10 .PingMin_10_list .PingMin-left h3 {
+    float: left;
+    font-size: 34px;
+    font-weight: 500;
+    margin-top: 17px;
+    margin-left: 28px;
+}
+
+.PingMin_10 .PingMin_10_list .PingMin-left div {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.PingMin_10 .PingMin_10_list .PingMin-left h1 {
+
+
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    margin-top: 16px;
+    margin-left: 28px;
+}
+
+.PingMin_10 .PingMin_10_list .PingMin-left .img {
+    width: 74px;
+    height: 69px;
+    position: absolute;
+    top: 329px;
+    left: 542px;
+    color: blue;
+    z-index: 1000;
+}
+
+.PingMin_10 .PingMin_10_list .PingMin-left p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 15px;
+    margin-top: 21px;
+    margin-left: 28px;
+    margin-right: 23px;
+    color: #8f8f8f;
+}
+
+.PingMin_10 .PingMin_10_list .PingMin-right li {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    margin-bottom: 7px;
+    border-radius: 6px;
+    padding-left: 44px;
+}
+
+
+
+.PingMin_10 .PingMin_10_list .PingMin-right li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    line-height: 32px;
+
+}
+
+.PingMin_10 .PingMin_10_list .PingMin-right li img {
+    position: absolute;
+    top: 11px;
+    right: 7px;
+}
+
+
+.PingMin_11 {
+    position: relative;
+    width: 1300px;
+    height: 32px;
+    padding-top: 60px;
+    /* background-color: pink; */
+}
+
+.PingMin_11::after {
+    position: absolute;
+    top: 59px;
+    left: 0;
+    font-size: 33px;
+    font-family: 'icomoon';
+    content: '';
+    color: #5068fc;
+    margin-left: 322px;
+}
+
+.PingMin_11 span {
+    float: left;
+    color: #5068fc;
+    font-size: 30px;
+    line-height: 32px;
+    margin-left: 367px;
+    font-weight: 700;
+
+}
+
+.PingMin_11 p {
+
+    color: black;
+    font-size: 30px;
+    line-height: 32px;
+    margin-left: 368px;
+    font-weight: 700;
+}
+
+.PingMin_11 .PingMin_11_2 {
+    position: absolute;
+    top: 66px;
+    right: -285px;
+    font-size: 18px;
+    color: #5068fc;
+    text-decoration: none;
+    border-bottom: 1px solid #5068fc;
+
+}
